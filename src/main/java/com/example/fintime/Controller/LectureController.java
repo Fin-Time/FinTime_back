@@ -28,6 +28,6 @@ public class LectureController {
         Lecture save_lecture = lectureRepository.save(lecture);
         log.info("save");
 
-        return "save";
+        return "";
     }
 }
